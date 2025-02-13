@@ -20,13 +20,11 @@
             </style>
         @endif
     </head>
-    <body class="font-sans antialiased">
+    <body class="font-sans antialiased bg-gray-200">
         <div  id="app">
                     <main class="mt-6">
                         @yield('content')
                     </main>
-
-
 
         </div>
     </body>
